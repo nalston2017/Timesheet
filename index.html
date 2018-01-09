@@ -17,29 +17,25 @@
       <div class="col-sm-12 col-md-3">
         <div class="panel">
           <div class="panel-heading">
-            <h3 class="panel-title">Train Addition Form</h3>
+            <h3 class="panel-title">Employee Addition Form</h3>
           </div>
           <div class="panel-body">
             <span class="help-block">Please fill out all fields</span>
             <form class="" action="index.html" method="post">
               <div class="form-group">
-                <label for="trainName">Train Name</label>
-                <input class="form-control" id="trainName" type="text" value="Train Name">
+                <label for="employeeName">Employee Name</label>
+                <input class="form-control" id="employeeName" type="text" value="Employee Name">
               </div>
               <div class="form-group">
-                <label for="trainDestination">Destination</label>
-                <input class="form-control" id="trainDestination" type="text" value="Destination">
+                <label for="employeeRole">Role</label>
+                <input class="form-control" id="employeeRole" type="text" value="">
               </div>
               <div class="form-group">
-                <label for="trainTime">Train Time</label>
-                <input class="form-control" id="firstTrain" type="text" value="HH:mm">
+                <label for="employeeStartDate">Start Date</label>
+                <input class="form-control" id="employeeStartDate" type="text" value="dd/mm/yyyy">
               </div>
               <div class="form-group">
-                <label for="trainFrequency">Frequency (min)</label>
-                <input class="form-control" id="trainFrequency" type="text" value="Frequency">
-              </div>
               <button type="submit" class="btn submit">Submit</button>
-              <button type="reset" class="btn reset">Reset</button>
             </form>
           </div>
         </div>
@@ -47,17 +43,16 @@
       <div class="col-sm-12 col-md-9">
         <div class="panel">
           <div class="panel-heading">
-            <h3 class="panel-title">Train Schedule</h3>
+            <h3 class="panel-title">Employee Data</h3>
           </div>
           <div class="panel-body table-responsive">
             <table class="table">
               <thead>
                 <tr>
-                  <th class="text-center">Train</th>
-                  <th class="text-center">Destination</th>
-                  <th class="text-center">Frequency</th>
-                  <th class="text-center">Next Arrival</th>
-                  <th class="text-center">Minutes Away</th>
+                  <th class="text-center">Employee Name</th>
+                  <th class="text-center">Role</th>
+                  <th class="text-center">Start Date</th>
+                  <th class="text-center">Monthly Rate</th>
                 </tr>
               </thead>
               <tbody class="text-center">
