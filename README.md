@@ -1,2 +1,2 @@
-# Timesheet
-Inclass work
+# Train-Activity
+Week 7 Assignment - Firebase
